@@ -1,0 +1,39 @@
+Django-React Resume Builder
+---------------------------
+
+There were several ways to approach this; however, since this is new to all of us, 
+we wanted to get some basic practical experience. A more complicated way to do this project
+would be to make Django a REST API backend with React handling the entire frontend. But since
+we are also using a Django library to serve the resumes as PDF (and getting that working with Django
+may be challenge enough), we decided to incorporate React as components into the project. 
+
+PO:
+- initial set up of the project
+- routing and resume models
+- setup of the ReportLab library 
+- Django settings for compatibility with React
+
+P1:
+- home page template (almost all REACT components)
+- resume builder page template (the form will connect to Django model but other design
+around it could be REACT components)
+- single resume template that the ReportLab library turns into a PDF
+- basic CSS styling
+
+P2:
+- page template that uses a job board API to display open jobs 
+
+Future Features:
+- Users and profiles
+- Users can save resumes for future use and name them
+- Users can delete resumes from their accounts
+- Users can keep track of which jobs they applied to and which resumes they sent
+- Refactoring the project into an API for use with any JS frontend
+
+GROUP MEMBERS
+-------------
+
+Roxanna Coldiron - Django backend
+Jonny Ruano - Django backend
+Christina Lebron - React frontend
+Ryan Withers - React frontend
