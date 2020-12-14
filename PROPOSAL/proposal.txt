@@ -37,3 +37,6 @@ Roxanna Coldiron - Django backend
 Jonny Ruano - Django backend
 Christina Lebron - React frontend
 Ryan Withers - React frontend
+
+
+GITHUB LINK: https://github.com/Dec2020PandA/Django_React_Resume_Builder_Group
