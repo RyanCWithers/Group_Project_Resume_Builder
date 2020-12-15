@@ -1,0 +1,24 @@
+The react form will take in the following information:
+
+-Name
+-Contact Information and Social Media
+-Technical Skills
+-Projects
+	-->Project Name
+	-->App Description
+	-->Link
+	-->Bullet Points
+-Work Experience
+	-->Role
+	-->Company
+	-->Date Range
+	-->Bullet Points
+-Education
+	-->School
+	-->Degree/Certification
+	-->Location
+	-->Date Range
+
+The form will be styled and formatted using CSS and Bootstrap. It will have a similar layout to what
+a resume would look like to make it more user friendly.
+
