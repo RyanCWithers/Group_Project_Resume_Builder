@@ -1,0 +1,41 @@
+Django-React Resume Builder
+---------------------------
+
+After further research, it may be better to set up a Django REST API and use a JavaScript
+solution for the resumes, especially since we are not currently incorporating users and we
+want to learn how to get Django and React to work together. PDFMake uses JavaScript, so it
+should be compatible with React. For the backend, we would create Django models that have props
+for React to pull in data.
+
+PO:
+- initial set up of the project
+- routing and resume models
+- setup of PDFMAKE
+- Django settings for compatibility with React
+
+P1:
+- home page template 
+- resume builder page template 
+- 1-2 resume designs for download
+- basic CSS styling
+
+P2:
+- page template that uses a job board API to display open jobs 
+
+Future Features:
+- Users and profiles
+- Users can save resumes for future use and name them
+- Users can delete resumes from their accounts
+- Users can keep track of which jobs they applied to and which resumes they sent
+- Refactoring the project into an API for use with any JS frontend
+
+GROUP MEMBERS
+-------------
+
+Roxanna Coldiron - Django backend
+Jonny Ruano - Django backend
+Christina Lebron - React frontend
+Ryan Withers - React frontend
+
+
+GITHUB LINK: https://github.com/Dec2020PandA/Django_React_Resume_Builder_Group
