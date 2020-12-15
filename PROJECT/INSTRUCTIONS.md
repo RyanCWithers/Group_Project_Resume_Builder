@@ -6,10 +6,8 @@ Please read these carefully. DO NOT PUSH TO MAIN BRANCH!
 Python/Django Setup and Getting Started
 ---------------------------------------
 
-1. Clone this repo if you haven't already. 
+1. Clone this repo if you haven't already. If you have already cloned the repo, move onto the next step. 
 `git clone https://github.com/Dec2020PandA/Django_React_Resume_Builder_Group.git`
-
-If you have already cloned the repo, move onto the next step. 
 
 2. Go into the PROJECT directory.
 `cd DJANGO_REACT_RESUME_BUILDER_GROUP`
