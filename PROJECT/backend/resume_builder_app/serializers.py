@@ -19,3 +19,6 @@ class ResumeSerializer(serializers.ModelSerializer):
             'job3',
             'education'
         )
+
+
+# Jonny, add your API serializer below this line if one is needed
