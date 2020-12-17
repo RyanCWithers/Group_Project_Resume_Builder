@@ -16,7 +16,7 @@ Python/Django Setup and Getting Started
 3. If you don't see the PROJECT folder, you may need to update with origin main.
 `git pull origin main` or just `git pull` as long as you are in the main branch.
 
-4. Once you main branch is updated, MAKE A NEW BRANCH. Name the branch something appropriate.
+4. Once your main branch is updated, MAKE A NEW BRANCH. Name the branch something appropriate.
 `git checkout -b feature_branch` 
 
 5. Make sure you are in the new branch.
@@ -48,6 +48,10 @@ Windows: `.venv/Scripts/activate.ps1`
 14. You can run the server to check it out.
 `python manage.py runserver`
 
-15. Go to `http://127.0.0.1:8000/api/resumes/` to check out the api page. There is currently no frontend until it is added with React. 
+15. Go to `http://127.0.0.1:8000/api/resumes/` to check out the API page. 
 
 16. You should also look into the `resume_builder_app` code for reference. Look for the `models.py` file to see which fields the Resume model has, as you will need to know the names of those fields to reference them in React. You should not need to change anything in the `backend` folder if you are working on the Frontend. 
+
+17. The React app is found in the `frontend` folder. To work on the React app, you will need to have a separate terminal running, navigating to the `frontend` folder in the project, while the Django API is running in another (if you are connecting the API to the frontend). 
+
+18. Whatever you are working on, PLEASE TEST TO MAKE SURE IT WORKS BEFORE SENDING IT UP THE PIPELINE. If something doesn't work but the React app and API connection mostly works, comment out the broken code (if it doesn't completely break everything) and leave a comment about it. And let me know. 
