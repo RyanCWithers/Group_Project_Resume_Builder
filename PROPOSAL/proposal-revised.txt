@@ -48,7 +48,7 @@ GROUP MEMBERS
 Roxanna Coldiron - Django backend (Django project and API setup)
 Jonny Ruano - Django backend (additional feature and API incorporation)
 Christina Lebron - React frontend (React setup and styling)
-Ryan Withers - React frontend (connecting Django API to React form)
+Ryan Withers - React frontend (connecting React form to Django API)
 
 
 GITHUB LINK TO PROJECT FOLDER: https://github.com/Dec2020PandA/Django_React_Resume_Builder_Group/tree/main/PROJECT
