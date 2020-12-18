@@ -2,7 +2,7 @@ Django-React Resume Builder
 ---------------------------
 
 After further research, it may be better to set up a Django REST API and use a JavaScript
-solution for the resumes, especially since we are not currently incorporating users and we
+solution for the PDF generation of the Resumes, especially since we are not currently incorporating users and we
 want to learn how to get Django and React to work together.  We decided to go with a 
 JavaScript PDF generator solution, so it should be compatible with React and the JSON data from the Django API. 
 
