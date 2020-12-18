@@ -48,6 +48,18 @@ Windows: `.venv/Scripts/activate.ps1`
 14. You can run the server to check it out.
 `python manage.py runserver`
 
+---
+
+**NOTE**: If all you see is the default Django page, you may need to migrate before running the server. This is how to do that:
+
+`python manage.py makemigrations`
+
+`python manage.py migrate`
+
+Now you should be able to run the server and see the API page. 
+
+---
+
 15. Go to `http://127.0.0.1:8000/api/resumes/` to check out the API page. 
 
 16. You should also look into the `resume_builder_app` code for reference. Look for the `models.py` file to see which fields the Resume model has, as you will need to know the names of those fields to reference them in React. You should not need to change anything in the `backend` folder if you are working on the Frontend. 
@@ -55,3 +67,14 @@ Windows: `.venv/Scripts/activate.ps1`
 17. The React app is found in the `frontend` folder. To work on the React app, you will need to have a separate terminal running, navigating to the `frontend` folder in the project, while the Django API is running in another (if you are connecting the API to the frontend). 
 
 18. Whatever you are working on, PLEASE TEST TO MAKE SURE IT WORKS BEFORE SENDING IT UP THE PIPELINE. If something doesn't work but the React app and API connection mostly works, comment out the broken code (if it doesn't completely break everything) and leave a comment about it. And let me know. 
+
+**IMPORTANT NOTES**
+
+* If you are working on the backend and update a model in the `resume_builder_app`, only makemigrations **for the app**, like this:
+
+`python manage.py makemigrations resume_builder_app`
+
+* If you make an additional app for the Django backend, you would only need to makemigrations for that app (assuming you made migrations already for the entire project during setup). 
+
+* This should help you keep your migrations clean. 
+
