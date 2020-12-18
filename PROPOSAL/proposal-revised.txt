@@ -3,39 +3,52 @@ Django-React Resume Builder
 
 After further research, it may be better to set up a Django REST API and use a JavaScript
 solution for the resumes, especially since we are not currently incorporating users and we
-want to learn how to get Django and React to work together. PDFMake uses JavaScript, so it
-should be compatible with React. For the backend, we would create Django models that have props
-for React to pull in data.
+want to learn how to get Django and React to work together.  We decided to go with a 
+JavaScript PDF generator solution, so it should be compatible with React and the JSON data from the Django API. 
+
+The Django REST API converts the model into JSON data which React can easily pull in. 
+
+Basically, this will be a beta version of a Resume Builder app that does not have user profiles
+at this time. 
 
 PO:
-- initial set up of the project
-- routing and resume models
-- setup of PDFMAKE
-- Django settings for compatibility with React
+- initial set up of the project (backend and frontend)
+- routing and resume models 
+- setup of JavaScript PDF generator solution 
+- Django settings for compatibility with React 
 
 P1:
 - home page template 
 - resume builder page template 
-- 1-2 resume designs for download
-- basic CSS styling
+- 1-2 resume designs for download 
+- CSS/SCSS styling 
 
 P2:
-- page template that uses a job board API to display open jobs 
+- page template that uses a job board API to display open jobs  
+- auto-delete Resume objects for app visitors - those not logged in as users 
 
 Future Features:
+- Job Listings Page (with Indeed API)
 - Users and profiles
 - Users can save resumes for future use and name them
 - Users can delete resumes from their accounts
 - Users can keep track of which jobs they applied to and which resumes they sent
 - Refactoring the project into an API for use with any JS frontend
 
+WHAT'S NEW TO US
+----------------
+- Django REST API and serializers
+- Connecting Django and React together
+- Incorporating an additional API into our API backend
+
+
 GROUP MEMBERS
 -------------
 
-Roxanna Coldiron - Django backend
-Jonny Ruano - Django backend
-Christina Lebron - React frontend
-Ryan Withers - React frontend
+Roxanna Coldiron - Django backend (Django project and API setup)
+Jonny Ruano - Django backend (additional feature and API incorporation)
+Christina Lebron - React frontend (React setup and styling)
+Ryan Withers - React frontend (connecting Django API to React form)
 
 
-GITHUB LINK: https://github.com/Dec2020PandA/Django_React_Resume_Builder_Group
+GITHUB LINK TO PROJECT FOLDER: https://github.com/Dec2020PandA/Django_React_Resume_Builder_Group/tree/main/PROJECT
