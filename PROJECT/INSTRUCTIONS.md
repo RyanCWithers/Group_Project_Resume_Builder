@@ -78,3 +78,21 @@ Now you should be able to run the server and see the API page.
 
 * This should help you keep your migrations clean. 
 
+React Setup and Frontend Interaction
+---------------------------------------
+1. First, if you do not have React.js installed, then go to `https://reactjs.org/` and follow the instructions.
+
+2. In your project folder, you will need to install the following dependicies:
+ `npm install axios jspdf sass `
+
+3. Also, bootstrap is used to format the resume form. Please visit `getbootstrap.com` to read installation instructions.
+
+4. To start the application, open a separate terminal from the server and `cd frontend`.
+
+5. Type `npm start` into the terminal. This will start your react application in a window on your `localhost:8000`.
+
+6. To create a new resume, navigate to the new resume form. In there, you need to fill out the information for your resume, with the formatting you desire in the textboxes. 
+
+7. Once all information has been entered, then you can press the save button. This will save the resume information to the backend.
+
+8. There is a create button that will format your information into a pdf file in a separate window. From there, you can download the resume.
